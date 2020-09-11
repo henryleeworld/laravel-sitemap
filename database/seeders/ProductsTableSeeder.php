@@ -1,7 +1,9 @@
 <?php
+namespace Database\Seeders;
 
+use App\Models\Product;
+use Faker\Factory;
 use Illuminate\Database\Seeder;
-use App\Product;
 
 class ProductsTableSeeder extends Seeder
 {
@@ -14,7 +16,7 @@ class ProductsTableSeeder extends Seeder
     {
         $min = 1;
         $max = 5;
-        $faker = Faker\Factory::create();
+        $faker = Factory::create();
         foreach(range($min, $max) as $index)
         {
             $product = Product::create([

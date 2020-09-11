@@ -8,7 +8,7 @@ use Spatie\Sitemap\Sitemap;
 use Spatie\Sitemap\SitemapIndex;
 use Spatie\Sitemap\Tags\Url;
 use Spatie\Sitemap\Tags\Sitemap as TagSitemap;
-use App\Product;
+use App\Models\Product;
 
 class GenerateSitemap extends Command
 {
