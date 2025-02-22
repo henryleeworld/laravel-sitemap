@@ -2,18 +2,18 @@
 
 namespace App\Console\Commands;
 
-use Illuminate\Console\Command;
+use App\Models\Product;
 use Carbon\Carbon;
+use Illuminate\Console\Command;
 use Spatie\Sitemap\Sitemap;
 use Spatie\Sitemap\SitemapIndex;
-use Spatie\Sitemap\Tags\Url;
 use Spatie\Sitemap\Tags\Sitemap as TagSitemap;
-use App\Models\Product;
+use Spatie\Sitemap\Tags\Url;
 
 class GenerateSitemap extends Command
 {
     /**
-     * The console command name.
+     * The name and signature of the console command.
      *
      * @var string
      */
@@ -28,8 +28,6 @@ class GenerateSitemap extends Command
 
     /**
      * Execute the console command.
-     *
-     * @return mixed
      */
     public function handle()
     {
