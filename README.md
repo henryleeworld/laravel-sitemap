@@ -1,4 +1,4 @@
-# Laravel 11 網站地圖
+# Laravel 12 網站地圖
 
 引入 spatie 的 laravel-sitemap 套件來擴增實作網站地圖檔案，可以在其中提供網站上網頁、影片和其他檔案的相關資訊，並說明各個網頁和檔案之間的關係。Google 這類搜尋引擎會讀取網站地圖檔案，以更靈活的方式檢索網站。
 
@@ -28,8 +28,8 @@ $ php artisan sitemap:generate
 ----
 
 ## 畫面截圖
-![](https://i.imgur.com/1mfnwBP.png)
+![](https://i.imgur.com/Ry6mhM3.png)
 > 如果擁有多個網站地圖檔案，可以使用網站地圖索引檔一次提交所有檔案。網站地圖引檔的 XML 格式與網站地圖檔案的 XML 格式類似
 
-![](https://i.imgur.com/lGtCShG.png)
+![](https://i.imgur.com/EbBrnyU.png)
 > 不論採用何種格式，單一網站地圖的檔案大小上限為 50MB （未壓縮），且其中包含的網址數量最多為 50,000 個。如果你的檔案較大或網址數量較多，則必須將清單分割成數個網站地圖

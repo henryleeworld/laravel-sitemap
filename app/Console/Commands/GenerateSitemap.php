@@ -3,8 +3,8 @@
 namespace App\Console\Commands;
 
 use App\Models\Product;
-use Carbon\Carbon;
 use Illuminate\Console\Command;
+use Illuminate\Support\Carbon;
 use Spatie\Sitemap\Sitemap;
 use Spatie\Sitemap\SitemapIndex;
 use Spatie\Sitemap\Tags\Sitemap as TagSitemap;

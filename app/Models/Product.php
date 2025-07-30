@@ -11,12 +11,11 @@ class Product extends Model
 
     public $table = 'products';
 
-    protected $dates = [
-        'created_at',
-        'updated_at',
-        'deleted_at',
-    ];
-
+    /**
+     * The attributes that are mass assignable.
+     *
+     * @var list<string>
+     */
     protected $fillable = [
         'no',
         'name',
